@@ -20,15 +20,27 @@ html, body
     height: 100%;
 }
 
+
 body {
     margin: 0;
+}
+
+button {
+    font-size: 20pt;
+    background-color: #000;
+    color: rgb(144, 43, 226);
+}
+
+button:hover {
+    background-color: blue;
+    color: rgb(144, 43, 226);
 }
 
 .bloc
 {
     display: flex;
     flex-direction: column;
-    background: #8A2BE2;
+    background: rgb(144, 43, 226);
 }
 
 a {
@@ -37,21 +49,26 @@ a {
     font-family: 'Rubik';
 }
 
-
-li {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 60px;
+    border-bottom: 4px solid #000;
 }
 
-iframe 
-{
-    height: ;
-    border: ;    
-    width: 80%;
-    height: 105%;
-    font-family: 'Rubik';
+li a {
+    display: block;
+    width: 135px;
+    height: 42px;
+    font-size: 15pt;
+    color: #000;
+    text-align: center;
+    border-bottom: 4px solid #000;
 }
 
-.h2 {
-    font-size: "80pt";
+li a:hover {
+    background-color: blue;
+    color: black
 }
+
