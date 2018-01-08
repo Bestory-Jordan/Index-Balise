@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Rubik"
+    src: url("Rubik-Black.ttf");
+    src: url("Rubik-BlackItalic.ttf");
+    src: url("Rubik-Bold.ttf");
+    src: url("Rubik-BoldItalic.ttf");
+    src: url("Rubik-Italic.ttf");
+    src: url("Rubik-Light.ttf");
+    src: url("Rubik-LightItalic.ttf");
+    src: url("Rubik-Medium.ttf");
+    src: url("Rubik-MediumItalic.ttf");
+    src: url("Rubik-Regular.ttf");
+}
+
+
+
+html, body
+{
+    
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.bloc
+{
+    display: flex;
+    flex-direction: column;
+    background: #8A2BE2;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Rubik';
+}
+
+
+li {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+iframe 
+{
+    height: ;
+    border: ;    
+    width: 80%;
+    height: 105%;
+    font-family: 'Rubik';
+}
+
+.h2 {
+    font-size: "80pt";
+}
